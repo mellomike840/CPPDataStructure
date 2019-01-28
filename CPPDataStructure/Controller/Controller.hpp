@@ -12,6 +12,8 @@
 #include <iostream>
 using namespace std;
 
+
+//a class declaration in a collection of prototypes.
 class Controller
 {
 private:
