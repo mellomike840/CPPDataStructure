@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B9EE883220232A70041A4FD /* LinearNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearNode.h; sourceTree = "<group>"; };
 		2BC0320C21FF8B5A00C850E4 /* CPPDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC0321A21FF8BD500C850E4 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		2BC0321C21FF8C2E00C850E4 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				2BC0322021FF913500C850E4 /* Node.hpp */,
+				2B9EE883220232A70041A4FD /* LinearNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -293,16 +295,20 @@
 		2BC0321421FF8B5A00C850E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		2BC0321521FF8B5A00C850E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
