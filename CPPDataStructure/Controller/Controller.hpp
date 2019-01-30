@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include "../Model/Nodes/Node.hpp"
+#include "../Model/Nodes/LinearNode.h"
 
 using namespace std;
 
