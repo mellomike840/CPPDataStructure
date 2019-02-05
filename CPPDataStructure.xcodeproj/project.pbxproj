@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2BC0321B21FF8BD500C850E4 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0321A21FF8BD500C850E4 /* Runner.cpp */; };
 		2BC0321E21FF8C2E00C850E4 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0321C21FF8C2E00C850E4 /* Controller.cpp */; };
+		2BE3E33C220A278500DC2C71 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E33B220A278500DC2C71 /* Timer.cpp */; };
+		2BE3E33E220A27DF00DC2C71 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E33D220A27DF00DC2C71 /* CrimeData.cpp */; };
+		2BE3E341220A27F300DC2C71 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E340220A27F300DC2C71 /* Music.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,14 @@
 		2BC0321C21FF8C2E00C850E4 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		2BC0321D21FF8C2E00C850E4 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		2BC0322021FF913500C850E4 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		2BE3E33A220A278500DC2C71 /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		2BE3E33B220A278500DC2C71 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		2BE3E33D220A27DF00DC2C71 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		2BE3E33F220A27E700DC2C71 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		2BE3E340220A27F300DC2C71 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
+		2BE3E342220A27F800DC2C71 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		2BE3E343220A282000DC2C71 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		2BE3E344220A282F00DC2C71 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +118,7 @@
 		2BC0321821FF8B7800C850E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2BE3E339220A275A00DC2C71 /* Tools */,
 				2BC0321A21FF8BD500C850E4 /* Runner.cpp */,
 				2BC0321C21FF8C2E00C850E4 /* Controller.cpp */,
 				2BC0321D21FF8C2E00C850E4 /* Controller.hpp */,
@@ -117,8 +129,23 @@
 		2BC0321921FF8B9400C850E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2BE3E344220A282F00DC2C71 /* music.csv */,
+				2BE3E343220A282000DC2C71 /* crime.csv */,
+				2BE3E342220A27F800DC2C71 /* Music.hpp */,
+				2BE3E340220A27F300DC2C71 /* Music.cpp */,
+				2BE3E33F220A27E700DC2C71 /* CrimeData.hpp */,
+				2BE3E33D220A27DF00DC2C71 /* CrimeData.cpp */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BE3E339220A275A00DC2C71 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2BE3E33B220A278500DC2C71 /* Timer.cpp */,
+				2BE3E33A220A278500DC2C71 /* Timer.hpp */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE3E341220A27F300DC2C71 /* Music.cpp in Sources */,
+				2BE3E33E220A27DF00DC2C71 /* CrimeData.cpp in Sources */,
+				2BE3E33C220A278500DC2C71 /* Timer.cpp in Sources */,
 				2BC0321B21FF8BD500C850E4 /* Runner.cpp in Sources */,
 				2BC0321E21FF8C2E00C850E4 /* Controller.cpp in Sources */,
 			);
