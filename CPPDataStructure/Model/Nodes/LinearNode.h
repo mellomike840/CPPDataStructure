@@ -26,7 +26,7 @@ public:
 
 //Implementation of templates
 template <class Type>
-LinearNode<Type> :: LinearNode() : Node()
+LinearNode<Type> :: LinearNode() : Node<Type>()
 {}
 
 template <class Type>
