@@ -30,6 +30,8 @@
 /* Begin PBXFileReference section */
 		2B5E704E220CBBF600210368 /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		2B5E7050220CC66100210368 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		2B980AF12211FFE00063FDA4 /* music (1).csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "music (1).csv"; sourceTree = "<group>"; };
+		2B980AF222120DA60063FDA4 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		2B9EE883220232A70041A4FD /* LinearNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearNode.h; sourceTree = "<group>"; };
 		2B9EE884220239940041A4FD /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		2BC0320C21FF8B5A00C850E4 /* CPPDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +46,6 @@
 		2BE3E340220A27F300DC2C71 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		2BE3E342220A27F800DC2C71 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
 		2BE3E343220A282000DC2C71 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
-		2BE3E344220A282F00DC2C71 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		2BE3E345220A2CD600DC2C71 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		2BE3E346220A2CD600DC2C71 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +76,7 @@
 				2B9EE884220239940041A4FD /* Array.hpp */,
 				2B5E704E220CBBF600210368 /* List.h */,
 				2B5E7050220CC66100210368 /* LinkedList.hpp */,
+				2B980AF222120DA60063FDA4 /* Stack.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -138,7 +140,7 @@
 		2BC0321921FF8B9400C850E4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2BE3E344220A282F00DC2C71 /* music.csv */,
+				2B980AF12211FFE00063FDA4 /* music (1).csv */,
 				2BE3E343220A282000DC2C71 /* crime.csv */,
 				2BE3E342220A27F800DC2C71 /* Music.hpp */,
 				2BE3E340220A27F300DC2C71 /* Music.cpp */,
