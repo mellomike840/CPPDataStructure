@@ -32,6 +32,7 @@
 		2B5E7050220CC66100210368 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		2B980AF12211FFE00063FDA4 /* music (1).csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "music (1).csv"; sourceTree = "<group>"; };
 		2B980AF222120DA60063FDA4 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		2B980AF32212120D0063FDA4 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		2B9EE883220232A70041A4FD /* LinearNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinearNode.h; sourceTree = "<group>"; };
 		2B9EE884220239940041A4FD /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		2BC0320C21FF8B5A00C850E4 /* CPPDataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPPDataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +78,7 @@
 				2B5E704E220CBBF600210368 /* List.h */,
 				2B5E7050220CC66100210368 /* LinkedList.hpp */,
 				2B980AF222120DA60063FDA4 /* Stack.h */,
+				2B980AF32212120D0063FDA4 /* Queue.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
