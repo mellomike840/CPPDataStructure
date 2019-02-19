@@ -17,6 +17,11 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
+#include "../Model/Linear/LinkedList.hpp"
+#include "../Model/Linear/Stack.h"
+#include "../Model/Linear/Queue.h"
+#include "../Model/Linear/Array.hpp"
+
 
 using namespace std;
 
@@ -24,7 +29,12 @@ class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
+    static LinkedList<CrimeData> readDataToList(string filename);
+    
     static vector<Music> musicDataToVector(string filename);
+    
+    static Array<Music> musicDataToArray(string filename);
+    static LinkedList<Music> musicDataToList(string filename);
 };
 
 #endif /* FileController_hpp */

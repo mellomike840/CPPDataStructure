@@ -34,7 +34,7 @@ public:
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
     // Type setAtIndex(int index, Type item);
-    // bool contains(Type item);
+    bool contains(Type item);
 };
 
 template <class Type>
@@ -121,7 +121,7 @@ Type LinkedList<Type> :: getFromIndex(int index)
         current = current->getNextNode();
     }
     
-    data = current->getdata();
+    data = current->getData();
     
     return data;
 }
@@ -194,13 +194,13 @@ int LinkedList<Type> :: getSize() const
 template <class Type>
 bool LinkedList<Type> :: contains(Type thingToFind)
 {
-    bool exist = false;
+    bool exists = false;
     
-    LinearNode<Type> * searchPoint = front;
+    LinearNode<Type> * searchPointer = front;
     
     for(int index  = 0; index < getSize(); index++)
     {
-        if(searchPointer->getData() == thingtoFind)
+        if(searchPointer->getData() == thingToFind)
         {
             return true;
         }

@@ -9,9 +9,10 @@
 #ifndef Queue_h
 #define Queue_h
 
-#include "linkedList.hpp"
 
+#include "LinkedList.hpp"
 #include <iostream>
+
 using namespace std;
 
 template <class Type>
@@ -22,9 +23,9 @@ public:
     ~Queue();
     
     //Queue methods
-    void enqueue(type data);
+    void enqueue(Type data);
     Type dequeue();
-    Type peek()
+    Type peek();
     void clear();
     
     //Overridden LinkedList methods
@@ -32,7 +33,7 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 
 template <class Type>
 Queue<Type> :: Queue() : LinkedList<Type>()
@@ -43,7 +44,11 @@ Queue<Type> :: Queue() : LinkedList<Type>()
 template <class Type>
 Queue<Type> :: ~Queue()
 {
-    for(Linear)
+    for(LinearNode<Type> * removed = this->front; removed != nullptr; removed = this->front)
+    {
+        this->front = removed->getNextNode();
+        delete removed;
+    }
 }
 
 
@@ -64,7 +69,7 @@ void Queue<Type> :: enqueue(Type item)
     this->end = added;
     this->size++;
 }
-}
+
 
 template <class Type>
 void Queue<Type> :: addAtIndex(int index, Type item)
@@ -102,7 +107,7 @@ void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {
-        cout <, dequeue() << endl;
+        cout << dequeue() << endl;
     }
 }
 

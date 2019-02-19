@@ -11,7 +11,7 @@
 void Controller :: start()
 {
     cout << "Data Structures App" << endl;
-    usingNodes();
+    testLinear();
 }
 
 void Controller :: usingNodes()
@@ -22,11 +22,16 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
-    
-    
 }
 
 void Controller :: testFiles()
 {
      vector<Music> tunez = FileController :: musicDataToVector("/Users/arot3696/C++ workspace/CPPDataStructure/CPPDataStructure/Resources/music.csv");
 }
+
+void Controller :: testLinear()
+{
+    LinearTester lookieHere;
+    lookieHere.testVsSTL();
+}
+
