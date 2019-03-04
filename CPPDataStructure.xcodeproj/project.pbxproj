@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B28BCD3222DC713004E95A4 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		2B5E704E220CBBF600210368 /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		2B5E7050220CC66100210368 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		2B60AA68221F2859007BDBE4 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				2B5E7050220CC66100210368 /* LinkedList.hpp */,
 				2B980AF222120DA60063FDA4 /* Stack.h */,
 				2B980AF32212120D0063FDA4 /* Queue.h */,
+				2B28BCD3222DC713004E95A4 /* Graph.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
